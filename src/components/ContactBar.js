@@ -18,7 +18,7 @@ const ContactBar = () => {
           </a>
         </li>
         <li>
-          <a href="mail.google.com" className="cool-link">
+          <a href="mailto:mariannelee1974@hotmail.com" className="cool-link">
             <FontAwesomeIcon icon={faEnvelope} /> mariannelee1974@hotmail.com
           </a>
         </li>
@@ -28,17 +28,17 @@ const ContactBar = () => {
           </a>
         </li>
         <li>
-          <a href="twitter.com" className="cool-link">
+          <a href="https://www.twitter.com" className="cool-link">
             <FontAwesomeIcon icon={faTwitter} /> Twitter
           </a>
         </li>
         <li>
-          <a href="facebook.com" className="cool-link">
+          <a href="https://www.facebook.com" className="cool-link">
             <FontAwesomeIcon icon={faFacebook} /> Facebook
           </a>
         </li>
         <li>
-          <a href="instagram.com" className="cool-link">
+          <a href="https://www.instagram.com" className="cool-link">
             <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
         </li>

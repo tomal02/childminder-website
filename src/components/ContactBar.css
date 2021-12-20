@@ -1,5 +1,5 @@
 .contact-bar {
-  background-color: greenyellow;
+  background-color: skyblue;
   padding: 3px;
   font-family: Arial;
   text-align: center;
@@ -15,7 +15,7 @@
 }
 
 .contact-bar li:hover {
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .contact-bar a {
