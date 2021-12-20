@@ -1,0 +1,18 @@
+.navbar {
+  background-color: aliceblue;
+  padding: 4px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.navbar li:hover {
+  background-color: lightblue;
+}
