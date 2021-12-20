@@ -13,32 +13,32 @@ const ContactBar = () => {
     <div className="contact-bar">
       <ul>
         <li>
-          <a href="https://goo.gl/maps/qCZnv3hY1qpTgPBm9">
+          <a href="https://goo.gl/maps/qCZnv3hY1qpTgPBm9" className="cool-link">
             <FontAwesomeIcon icon={faMapMarkedAlt} /> 15 Chalford Close
           </a>
         </li>
         <li>
-          <a href="mail.google.com">
+          <a href="mail.google.com" className="cool-link">
             <FontAwesomeIcon icon={faEnvelope} /> mariannelee1974@hotmail.com
           </a>
         </li>
         <li>
-          <a>
+          <a className="cool-link">
             <FontAwesomeIcon icon={faPhone} /> 07905163951
           </a>
         </li>
         <li>
-          <a href="twitter.com">
+          <a href="twitter.com" className="cool-link">
             <FontAwesomeIcon icon={faTwitter} /> Twitter
           </a>
         </li>
         <li>
-          <a href="facebook.com">
+          <a href="facebook.com" className="cool-link">
             <FontAwesomeIcon icon={faFacebook} /> Facebook
           </a>
         </li>
         <li>
-          <a href="instagram.com">
+          <a href="instagram.com" className="cool-link">
             <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
         </li>
