@@ -17,3 +17,8 @@
 .contact-bar li:hover {
   background-color: lightblue;
 }
+
+.contact-bar a {
+  text-decoration: none;
+  color: black;
+}
