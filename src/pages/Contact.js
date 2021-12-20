@@ -1,13 +1,30 @@
+import './Contact.css';
 import React from 'react';
 
 const Contact = () => {
   return (
     <div>
       <h1>Contact</h1>
-      <h3>Name</h3>
-      <h3>Email</h3>
-      <h3>Subject</h3>
-      <h3>Body</h3>
+      <form>
+        <input
+          name="name"
+          type="text"
+          class="feedback-input"
+          placeholder="Name"
+        />
+        <input
+          name="email"
+          type="text"
+          class="feedback-input"
+          placeholder="Email"
+        />
+        <textarea
+          name="text"
+          class="feedback-input"
+          placeholder="Comment"
+        ></textarea>
+        <input type="submit" value="SUBMIT" />
+      </form>
     </div>
   );
 };
