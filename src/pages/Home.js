@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
-const Home = () => {
+const Welcome = () => {
   return (
     <div id="welcome">
-      <h1>Home</h1>
+      <h1>Welcome</h1>
       <p>
         Welcome to my website! "Lorem ipsum dolor sit amet, consectetur
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -17,14 +18,22 @@ const Home = () => {
         Rated "Outstanding" by Ofsted Feb 2020 & Feb 2016. I provide a fun,
         educational and homely environment.
       </h3>
-      {/* <button>
-        <Link to="/contact">Contact me!</Link>
-      </button> */}
+      <button>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          Contact me!
+        </Link>
+      </button>
     </div>
   );
 };
 
-export default Home;
+export default Welcome;
 
 {
   /* <div id="fb-root"></div>
