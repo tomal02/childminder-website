@@ -1,15 +1,7 @@
 import './Navbar.css';
 import React from 'react';
-import logo from '../logo.jpeg';
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from 'react-bootstrap';
+// import logo from '../logo.jpeg';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -63,42 +55,3 @@ const NavigationBar = () => {
 };
 
 export default NavigationBar;
-
-{
-  /* <ul>
-        <img src={logo} alt="logo" className="logo" />
-        <li>
-          <Link
-            activeClass="active"
-            to="welcome"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            Welcome
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            Contact
-          </Link>
-        </li>
-      </ul> */
-}
