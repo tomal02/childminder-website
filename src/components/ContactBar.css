@@ -1,6 +1,6 @@
 .contact-bar {
-  background-color: skyblue;
-  padding: 3px;
+  background-color: #18191a;
+
   font-family: Arial;
   text-align: center;
   position: fixed;
@@ -23,7 +23,7 @@
 
 .contact-bar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 li {
