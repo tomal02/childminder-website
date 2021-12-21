@@ -23,7 +23,7 @@ const ContactBar = () => {
           </a>
         </li>
         <li>
-          <a className="cool-link">
+          <a href="tel:07905163951" className="cool-link">
             <FontAwesomeIcon icon={faPhone} /> 07905163951
           </a>
         </li>
