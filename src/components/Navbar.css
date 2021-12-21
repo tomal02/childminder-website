@@ -5,6 +5,9 @@
   text-align: center;
   margin: 0;
   margin-left: -37px; /* hardcoded value */
+  position: fixed;
+  width: 105%;
+  top: 35px;
 }
 
 .navbar ul {

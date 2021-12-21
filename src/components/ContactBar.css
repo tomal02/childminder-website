@@ -3,6 +3,9 @@
   padding: 3px;
   font-family: Arial;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .contact-bar ul {
