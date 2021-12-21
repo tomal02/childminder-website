@@ -1,7 +1,9 @@
 import './Navbar.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import logo from '../logo.jpeg';
+
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -9,13 +11,37 @@ const Navbar = () => {
       <ul>
         <img src={logo} alt="logo" className="logo" />
         <li>
-          <Link to="/">Home</Link>
+          <Link
+            activeClass="active"
+            to="welcome"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Welcome
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </div>
