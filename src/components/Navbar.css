@@ -1,9 +1,11 @@
 .navbar {
   top: 35px !important;
-  border-bottom: 2px solid black;
-  margin: 0;
 }
 
 body {
   padding-top: 120px;
+}
+
+.border {
+  border-bottom: 1px solid #e5e5e5;
 }
