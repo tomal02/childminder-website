@@ -1,6 +1,6 @@
 import './Navbar.css';
 import React from 'react';
-// import logo from '../logo.jpeg';
+import logo from '../logo.jpeg';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,9 +10,17 @@ import { Link } from 'react-scroll';
 const NavigationBar = () => {
   return (
     <div className="navbar">
-      <Navbar bg="dark" variant="dark" fixed="top">
+      <Navbar bg="light" variant="light" fixed="top">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#welcome">
+            <img
+              alt=""
+              src={logo}
+              width="90"
+              height="50"
+              className="d-inline-block align-top"
+            />{' '}
+          </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#welcome">
               <Link
