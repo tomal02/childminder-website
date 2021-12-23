@@ -16,13 +16,12 @@
   margin: 0;
 }
 
-.contact-bar li:hover {
-  /* background-color: lightblue; */
+.cool-link:hover {
+  color: gray;
 }
 
 .contact-bar a {
   text-decoration: none;
-  color: white;
 }
 
 li {
@@ -32,7 +31,7 @@ li {
 
 .cool-link {
   display: inline-block;
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 
@@ -41,7 +40,7 @@ li {
   display: block;
   width: 0;
   height: 2px;
-  background: #000;
+  background: white;
   transition: width 0.3s;
 }
 
