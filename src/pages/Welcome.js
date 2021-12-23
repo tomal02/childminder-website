@@ -12,7 +12,7 @@ const Welcome = () => {
         <p>This is the home section</p>
       </div>
 
-      {/* <button>
+      <button>
         <Link
           activeClass="active"
           to="contact"
@@ -22,7 +22,7 @@ const Welcome = () => {
         >
           Contact me!
         </Link>
-      </button> */}
+      </button>
     </section>
   );
 };
