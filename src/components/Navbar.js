@@ -55,6 +55,17 @@ const NavigationBar = () => {
                 Contact
               </Link>
             </Nav.Link>
+            <Nav.Link href="#gallery">
+              <Link
+                activeClass="active"
+                to="gallery"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Gallery
+              </Link>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

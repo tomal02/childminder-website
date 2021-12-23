@@ -5,6 +5,7 @@ import NavigationBar from './components/Navbar';
 import Welcome from './pages/Welcome';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Welcome />
       <About />
       <Contact />
+      <Gallery />
     </div>
   );
 }
