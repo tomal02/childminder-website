@@ -1,12 +1,16 @@
 import './ContactBar.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faTwitter,
+  faInstagram,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons';
+import {
+  faPhone,
+  faEnvelope,
+  faMapMarkedAlt,
+} from '@fortawesome/free-solid-svg-icons';
 
 const ContactBar = () => {
   return (
