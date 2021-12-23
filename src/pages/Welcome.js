@@ -11,18 +11,6 @@ const Welcome = () => {
         <h3>HOME</h3>
         <p>This is the home section</p>
       </div>
-
-      <button>
-        <Link
-          activeClass="active"
-          to="contact"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Contact me!
-        </Link>
-      </button>
     </section>
   );
 };
