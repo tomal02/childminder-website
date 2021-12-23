@@ -2,6 +2,12 @@ footer {
   padding: 0;
 }
 
+@media screen and (max-width: 900px) {
+  .item.text {
+    display: none;
+  }
+}
+
 #rowier {
   height: 40vh;
 }
