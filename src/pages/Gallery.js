@@ -6,7 +6,7 @@ import childPhoto from '../child1.jpg';
 const Gallery = () => {
   return (
     <div className="gallery" id="gallery">
-      <h3>ABOUT</h3>
+      <h3>GALLERY</h3>
       <p>A collection of various pictures of my setting</p>
       <div className="row">
         <div className="column">
