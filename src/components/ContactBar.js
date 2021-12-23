@@ -27,8 +27,13 @@ const ContactBar = () => {
             <FontAwesomeIcon icon={faPhone} /> 07905163951
           </a>
         </li>
+        <li> |</li>
         <li>
-          <a href="https://www.twitter.com" className="cool-link">
+          <a
+            href="https://www.twitter.com"
+            className="cool-link"
+            id="socials-start"
+          >
             <FontAwesomeIcon icon={faTwitter} /> Twitter
           </a>
         </li>
