@@ -2,3 +2,9 @@
   top: 35px !important;
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    top: 0px !important;
+  }
+}

@@ -10,7 +10,7 @@ import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 
 const ContactBar = () => {
   return (
-    <div className="contact-bar">
+    <div className="contact-bar" id="desktop-only">
       <ul>
         <li>
           <a href="https://goo.gl/maps/qCZnv3hY1qpTgPBm9" className="cool-link">
