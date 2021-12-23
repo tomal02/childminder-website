@@ -1,20 +1,18 @@
 import './Page.css';
 import React from 'react';
 import { Link } from 'react-scroll';
+import childPhoto from '../child1.jpg';
 
 const Welcome = () => {
   return (
-    <div id="welcome">
-      <h1>Welcome</h1>
-      <p>
-        Hi! I'm <strong> Marianne Lee</strong>, an experienced and caring
-        childminder based in Molesey, Surrey.
-      </p>
-      <h3>
-        Rated "Outstanding" by Ofsted Feb 2020 & Feb 2016. I provide a
-        fun,educational and homely environment
-      </h3>
-      <button>
+    <section id="welcome">
+      <img src={childPhoto} alt="unsplash-img" />
+      <div>
+        <h3>HOME</h3>
+        <p>This is the home section</p>
+      </div>
+
+      {/* <button>
         <Link
           activeClass="active"
           to="contact"
@@ -24,8 +22,8 @@ const Welcome = () => {
         >
           Contact me!
         </Link>
-      </button>
-    </div>
+      </button> */}
+    </section>
   );
 };
 

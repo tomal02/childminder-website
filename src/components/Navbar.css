@@ -1,11 +1,4 @@
 .navbar {
   top: 35px !important;
-}
-
-body {
-  padding-top: 120px;
-}
-
-.border {
-  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
 }
