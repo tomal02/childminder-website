@@ -1,6 +1,5 @@
 import './Page.css';
 import React from 'react';
-import { Link } from 'react-scroll';
 import childPhoto from '../child1.jpg';
 
 const Welcome = () => {
