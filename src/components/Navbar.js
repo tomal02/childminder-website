@@ -20,7 +20,7 @@ const NavigationBar = () => {
               height="30"
               className="d-inline-block align-top"
             />
-            {'Molesey Childminder'}
+            {' Molesey Childminder'}
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#welcome">
