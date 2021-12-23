@@ -19,7 +19,8 @@ const NavigationBar = () => {
               width="30"
               height="30"
               className="d-inline-block align-top"
-            />{' '}
+            />
+            {'Molesey Childminder'}
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#welcome">
