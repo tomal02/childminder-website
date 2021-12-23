@@ -22,17 +22,17 @@ const Footer = () => {
                 </p>
               </div>
               <div class="col item social">
-                <a href="#">
+                <a href="https://www.facebook.com">
                   <i class="icon ion-social-facebook">
                     <FontAwesomeIcon icon={faFacebook} />
                   </i>
                 </a>
-                <a href="#">
+                <a href="https://www.twitter.com">
                   <i class="icon ion-social-twitter">
                     <FontAwesomeIcon icon={faTwitter} />
                   </i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com">
                   <i class="icon ion-social-instagram">
                     <FontAwesomeIcon icon={faInstagram} />
                   </i>
