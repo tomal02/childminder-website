@@ -39,7 +39,7 @@ const Contact = () => {
           </a>
           <br />
           <a href="https://goo.gl/maps/qCZnv3hY1qpTgPBm9" className="cool-link">
-            <FontAwesomeIcon icon={faMapMarkedAlt} /> 15 Chalford Close
+            <FontAwesomeIcon icon={faMapMarkedAlt} /> West Molesey, Surrey
           </a>
         </p>
       </div>
