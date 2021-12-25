@@ -10,7 +10,13 @@ import { Link } from 'react-scroll';
 const NavigationBar = () => {
   return (
     <div className="navbar">
-      <Navbar bg="light" variant="light" fixed="top" className="border">
+      <Navbar
+        bg="light"
+        expand="lg"
+        variant="light"
+        fixed="top"
+        className="border"
+      >
         <Container>
           <Navbar.Brand href="#welcome">
             <img
@@ -22,52 +28,55 @@ const NavigationBar = () => {
             />
             {' Molesey Childminder'}
           </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#welcome">
-              <Link
-                activeClass="active"
-                to="welcome"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Welcome
-              </Link>
-            </Nav.Link>
-            <Nav.Link href="#about">
-              <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                About
-              </Link>
-            </Nav.Link>
-            <Nav.Link href="#contact">
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Contact
-              </Link>
-            </Nav.Link>
-            <Nav.Link href="#gallery">
-              <Link
-                activeClass="active"
-                to="gallery"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Gallery
-              </Link>
-            </Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#welcome">
+                <Link
+                  activeClass="active"
+                  to="welcome"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  Welcome
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="#about">
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  About
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="#contact">
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  Contact
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="#gallery">
+                <Link
+                  activeClass="active"
+                  to="gallery"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  Gallery
+                </Link>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
       <hr />
