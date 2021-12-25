@@ -1,11 +1,7 @@
 import './ContactBar.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTwitter,
-  faInstagram,
-  faFacebook,
-} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import {
   faPhone,
   faEnvelope,
@@ -32,22 +28,20 @@ const ContactBar = () => {
           </a>
         </li>
         <li> |</li>
+
         <li>
           <a
-            href="https://www.twitter.com"
+            href="https://www.facebook.com/WestMoleseyChildminder"
             className="cool-link"
-            id="socials-start"
           >
-            <FontAwesomeIcon icon={faTwitter} /> Twitter
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com" className="cool-link">
             <FontAwesomeIcon icon={faFacebook} /> Facebook
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com" className="cool-link">
+          <a
+            href="https://www.instagram.com/moleseychildminder"
+            className="cool-link"
+          >
             <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
         </li>

@@ -16,11 +16,17 @@ const Contact = () => {
       <div>
         <h3>CONTACT</h3>
         <p>
-          <a href="https://www.facebook.com" className="cool-link">
+          <a
+            href="https://www.facebook.com/WestMoleseyChildminder"
+            className="cool-link"
+          >
             <FontAwesomeIcon icon={faFacebook} /> Facebook
           </a>
           <br />
-          <a href="https://www.instagram.com" className="cool-link">
+          <a
+            href="https://www.instagram.com/moleseychildminder"
+            className="cool-link"
+          >
             <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
           <br />
