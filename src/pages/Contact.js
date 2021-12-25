@@ -2,11 +2,7 @@ import './Page.css';
 import React from 'react';
 import childPhoto from '../child3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTwitter,
-  faInstagram,
-  faFacebook,
-} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import {
   faPhone,
   faEnvelope,
