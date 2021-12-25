@@ -42,6 +42,31 @@ section div {
   }
 }
 
+.cool-link {
+  display: inline-block;
+  color: gray;
+}
+.cool-link:hover {
+  color: gray;
+}
+.cool-link {
+  display: inline-block;
+  color: gray;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: gray;
+  transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
 footer {
   background-color: #26272b;
   padding: 45px 0 20px;
