@@ -69,3 +69,10 @@ footer {
 .footer-dark .item.social > a:hover {
   opacity: 0.9;
 }
+
+.ofsted-logo {
+  margin-left: 50px;
+  max-width: 10%;
+  height: auto;
+  margin-bottom: 10px;
+}

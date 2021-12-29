@@ -1,7 +1,7 @@
 import './Page.css';
 import './Gallery.css';
 import React from 'react';
-import childPhoto from '../child1.jpg';
+import photo1 from '../gallery-photo1.jpeg';
 
 const Gallery = () => {
   return (
@@ -10,19 +10,19 @@ const Gallery = () => {
       <p>A collection of various pictures of my setting</p>
       <div className="row">
         <div className="column">
-          <img src={childPhoto} alt="of kid" />
-          <img src={childPhoto} alt="of kid" />
-          <img src={childPhoto} alt="of kid" />
+          <img src={photo1} alt="of kid" />
+          <img src={photo1} alt="of kid" />
+          <img src={photo1} alt="of kid" />
         </div>
         <div className="column">
-          <img src={childPhoto} alt="of kid" />
-          <img src={childPhoto} alt="of kid" />
-          <img src={childPhoto} alt="of kid" />
+          <img src={photo1} alt="of kid" />
+          <img src={photo1} alt="of kid" />
+          <img src={photo1} alt="of kid" />
         </div>
         <div className="column">
-          <img src={childPhoto} alt="of kid" />
-          <img src={childPhoto} alt="of kid" />
-          <img src={childPhoto} alt="of kid" />
+          <img src={photo1} alt="of kid" />
+          <img src={photo1} alt="of kid" />
+          <img src={photo1} alt="of kid" />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import './Footer.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import ofsted from '../ofsted-outstanding.png';
 
 const Footer = () => {
   return (
@@ -29,6 +30,11 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faInstagram} />
                   </i>
                 </a>
+                <img
+                  src={ofsted}
+                  alt="ofsted outstanding logo"
+                  className="ofsted-logo"
+                />
               </div>
             </div>
           </div>
